@@ -1,0 +1,1 @@
+python maml_paddle.py --data_dir dataset/ --model_type roberta --model_name_or_path microsoft/codebert-base --task_name codesearch --output_dir output --do_meta_train --train_file train_valid/file.tsv
